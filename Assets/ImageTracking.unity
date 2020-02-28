@@ -306,8 +306,7 @@ MonoBehaviour:
   debugLog: {fileID: 641557178}
   imageTrackingStatus: {fileID: 1590860972}
   imageTrackerBehaviour: {fileID: 1890709608}
-  targetPrefab: {fileID: 2187765435561656310, guid: d3a0681323b38fa488e7b96ae8e1b618,
-    type: 3}
+  targetPrefab: {fileID: 0}
 --- !u!114 &102518748
 MonoBehaviour:
   m_ObjectHideFlags: 0
