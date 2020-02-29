@@ -40,6 +40,7 @@ namespace MagicLeap
         private GameObject _trackingCube = null;
         [SerializeField, Tooltip("Game Object showing the demo")]
         private GameObject _demo = null;
+ 
 
         private ImageTrackingExample.ViewMode _lastViewMode = ImageTrackingExample.ViewMode.All;
         #endregion
@@ -62,6 +63,7 @@ namespace MagicLeap
                 enabled = false;
                 return;
             }
+           
             if (null == _demo)
             {
                 Debug.LogError("Error: ImageTrackingVisualizer._demo is not set, disabling script.");
